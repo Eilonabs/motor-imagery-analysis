@@ -9,9 +9,7 @@ Train a left/right motor imagery EEG classifier and generate predictions for uns
 - `features.py` — feature extraction (e.g., band-power) + PCA helpers.
 - `classification.py` — LDA-based evaluation (CV) and test prediction generation.
 - ## How to run
-1. Place the dataset files in the project folder:
-   - `motor_imagery_train_data.npy`
-   - `motor_imagery_test_data.npy`
-2. Run:
-   ```bash
-   python main.py
+Dataset files (`motor_imagery_train_data.npy`, `motor_imagery_test_data.npy`) are not included (course materials).
+Place them locally in the project root and run:
+python main.py
+
